@@ -2,7 +2,7 @@
 一款带水波点击效果的Button
 ![image](https://github.com/TangYuF/TYFWaveButton/blob/master/demo.gif)
 
-#### 最简单使用(跟多使用效果见DEMO)
+#### 最简单使用(更多使用效果见DEMO)
 ```objective-c
 - (void)viewDidLoad {
     [super viewDidLoad];
