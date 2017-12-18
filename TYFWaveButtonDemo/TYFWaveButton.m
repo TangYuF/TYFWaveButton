@@ -120,7 +120,7 @@
         
         NSTimer *timer = [NSTimer timerWithTimeInterval:0.01
                                                  target:self
-                                               selector:@selector(TimerFunction:)
+                                               selector:@selector(Timer:)
                                                userInfo:@{@"key":key}
                                                 repeats:YES];
         
@@ -131,7 +131,7 @@
 
 }
 
--(void)TimerFunction:(NSTimer *)timer{
+-(void)Timer:(NSTimer *)timer{
     
     [self setNeedsDisplay];
     
